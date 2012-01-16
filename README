@@ -1,0 +1,13 @@
+
+Purpose:
+
+  Setting the WM_CLASS property by PID or by running a program.
+
+Compile:
+
+  $ gcc -lX11 wm_class.c -o wm_class
+
+Usage:
+
+  $ wm_class --set <name> <class> <pid>
+  $ wm_class --run <name> <class> <program> <argument>*
